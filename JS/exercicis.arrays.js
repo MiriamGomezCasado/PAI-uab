@@ -79,3 +79,73 @@
 // }
 // console.log("Suma total:", sumaTotal)
 
+
+// 21.9.- Fes un programa que crei una segona taula i emmagatzemi a ella tots els
+// valors de la taula, tot sumant-los 25 (així les tres primeres posicions de la nova taula
+// emmagatzemarien [48, 70, 88] Un cop fet haurà d’escriure la nova taula a la consola.
+
+// let taula = [23, 45, 63, 78, 23, 68, 3, 78, 32, 53, 93, 21, 53, 5, 62, 78];
+// let novaTaula = [];
+// for (let i = 0; i < taula.length; i++) {
+//     novaTaula[i] = taula[i] + 25;
+// }
+// console.log(novaTaula)
+
+// 21.10.- Fes un programa que calculi la mitjana dels valors emmagatzemats a la taula
+// i l’escrigui a la consola (la mitjana es calcula sumant tots els valors i dividint pel
+// nombre de valors).
+
+// let taula = [23, 45, 63, 78, 23, 68, 3, 78, 32, 53, 93, 21, 53, 5, 62, 78];
+// let suma = 0;
+// for (let i = 0; i < taula.length; i++) {
+//     suma += taula[i];
+// }
+// let mitjana = suma / taula.length;
+// console.log("Mitjana:", mitjana)
+
+
+// 21.11.- Fes un programa que calculi i escrigui a la consola els valors més gran i més
+// petit de la taula. 
+
+// let taula = [23, 45, 63, 78, 23, 68, 3, 78, 32, 53, 93, 21, 53, 5, 62, 78];
+// let gran = taula[0];
+// let petit = taula[0];
+
+// for (let i = 1; i < taula.length; i++) {
+//     if (taula[i] > gran) {
+//         gran = taula[i];
+//     }
+//     if (taula[i] < petit) {
+//         petit = taula[i];
+//     }
+// }
+// console.log("Valor més gran:", gran);
+// console.log("Valor més petit:", petit)
+
+// 21.12.- Fes un programa que crei una nova taula on s’emmagatzemin només els
+// valors parells de la taula i que escrigui el contingut d’aquesta nova taula a la consola. 
+
+// let taula = [23, 45, 63, 78, 23, 68, 3, 78, 32, 53, 93, 21, 53, 5, 62, 78];
+// let parells = [];
+// for (let i = 0; i < taula.length; i++) {
+//     if (taula[i] % 2 === 0) {
+//         parells.push(taula[i]);
+//     }
+// }
+// console.log(parells)
+
+// 21.13.- Fes un programa que demani a l’usuari un valor (fent servir prompt()) i
+// escrigui a la consola quants cops apareix aquest valor a la taula. 
+
+// let taula = [23, 45, 63, 78, 23, 68, 3, 78, 32, 53, 93, 21, 53, 5, 62, 78];
+// let valor = Number(prompt("Introdueix un valor a buscar:"));
+// let comptador = 0;
+
+// for (let i = 0; i < taula.length; i++) {
+//     if (taula[i] === valor) {
+//         comptador++;
+//     }
+// }
+// console.log(`El valor ${valor} apareix ${comptador} cops.`)
+
+
